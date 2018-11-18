@@ -1,0 +1,109 @@
+C:\Program Files (x86)\sonar-runner-2.4\bin\..
+SonarQube Runner 2.4
+Java 1.8.0_191 Oracle Corporation (64-bit)
+Windows 10 10.0 amd64
+INFO: Error stacktraces are turned on.
+INFO: Runner configuration file: C:\Program Files (x86)\sonar-runner-2.4\bin\..\conf\sonar-runner.properties
+INFO: Project configuration file: C:\Users\s_rus\eclipse-workspace\ClassPrueba\sonar-project.properties
+INFO: Default locale: "es_ES", source code encoding: "windows-1252" (analysis is platform dependent)
+INFO: Work directory: C:\Users\s_rus\eclipse-workspace\ClassPrueba\.\.sonar
+INFO: SonarQube Server 6.7.5.38563
+11:10:45.412 INFO  - Publish mode
+11:10:45.811 INFO  - Load global settings
+11:10:45.874 INFO  - Load global settings (done) | time=64ms
+11:10:45.881 INFO  - Server id: BF41A1F2-AWaSdojNQp0LAzHC4jIy
+11:10:45.889 WARN  - Property 'sonar.jdbc.username' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+11:10:45.890 WARN  - Property 'sonar.jdbc.password' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+11:10:45.891 INFO  - User cache: C:\Users\s_rus\.sonar\cache
+11:10:46.100 INFO  - Load plugins index
+11:10:46.142 INFO  - Load plugins index (done) | time=42ms
+11:10:46.727 INFO  - Process project properties
+11:10:46.759 INFO  - Load project repositories
+11:10:46.829 INFO  - Load project repositories (done) | time=70ms
+11:10:46.930 INFO  - Load quality profiles
+11:10:46.958 INFO  - Load quality profiles (done) | time=28ms
+11:10:46.972 INFO  - Load active rules
+11:10:47.309 INFO  - Load active rules (done) | time=337ms
+11:10:47.311 INFO  - Load metrics repository
+11:10:47.339 INFO  - Load metrics repository (done) | time=28ms
+11:10:47.369 WARN  - SCM provider autodetection failed. No SCM provider claims to support this project. Please use sonar.scm.provider to define SCM of your project.
+11:10:47.369 INFO  - Project key: sonar2
+11:10:47.370 INFO  - -------------  Scan Prueba2
+11:10:47.484 INFO  - Load server rules
+11:10:47.611 INFO  - Load server rules (done) | time=127ms
+11:10:47.649 INFO  - Base dir: C:\Users\s_rus\eclipse-workspace\ClassPrueba
+11:10:47.649 INFO  - Working dir: C:\Users\s_rus\eclipse-workspace\ClassPrueba\.sonar
+11:10:47.650 INFO  - Source paths: .
+11:10:47.650 INFO  - Source encoding: windows-1252, default locale: es_ES
+11:10:47.740 INFO  - Language is forced to java
+11:10:47.745 INFO  - Index files
+11:10:47.754 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\.classpath' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.754 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\.project' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.755 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\bin\Prueba1.class' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.756 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\bin\Prueba2.class' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.756 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\lanzar_sonarScanner.bat' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.756 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\pom.xml' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.756 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\bin\Prueba3.class' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.756 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\bin\Prueba4.class' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.757 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\lanzar_sonarRunner.bat' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.764 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\salida_sonar.text' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.764 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\salida_sonar.txt' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.764 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\sonar-project.properties' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.767 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\target\classes\Prueba1.class' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.769 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\target\classes\Prueba4.class' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.770 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\target\classes\Prueba2.class' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.771 WARN  - File 'C:\Users\s_rus\eclipse-workspace\ClassPrueba\target\classes\Prueba3.class' is ignored because it doesn't belong to the forced language 'java'
+11:10:47.779 INFO  - 4 files indexed
+11:10:47.779 INFO  - Quality profile for java: proyecto1
+11:10:48.555 INFO  - Sensor JavaSquidSensor [java]
+11:10:48.662 INFO  - Configured Java source version (sonar.java.source): none
+11:10:48.687 INFO  - JavaClasspath initialization
+11:10:48.699 WARN  - Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+11:10:48.699 INFO  - JavaClasspath initialization (done) | time=12ms
+11:10:48.699 INFO  - JavaTestClasspath initialization
+11:10:48.699 INFO  - JavaTestClasspath initialization (done) | time=0ms
+11:10:48.931 INFO  - Java Main Files AST scan
+11:10:48.933 INFO  - 4 source files to be analyzed
+11:10:49.215 INFO  - Java Main Files AST scan (done) | time=284ms
+11:10:49.215 INFO  - 4/4 source files have been analyzed
+11:10:49.215 INFO  - Java Test Files AST scan
+11:10:49.215 INFO  - 0 source files to be analyzed
+11:10:49.215 INFO  - Java Test Files AST scan (done) | time=0ms
+11:10:49.215 INFO  - Sensor JavaSquidSensor [java] (done) | time=660ms
+11:10:49.216 INFO  - Sensor PmdSensor [pmd]
+11:10:49.216 INFO  - 0/0 source files have been analyzed
+11:10:49.217 INFO  - Execute PMD 5.4.2...
+11:10:49.238 INFO  - Java version: 1.5
+11:10:49.264 INFO  - PMD configuration: C:\Users\s_rus\eclipse-workspace\ClassPrueba\.sonar\pmd.xml
+11:10:49.396 INFO  - Execute PMD 5.4.2 done: 179 ms
+11:10:49.428 INFO  - Sensor PmdSensor [pmd] (done) | time=212ms
+11:10:49.428 INFO  - Sensor SurefireSensor [java]
+11:10:49.428 INFO  - parsing [C:\Users\s_rus\eclipse-workspace\ClassPrueba\target\surefire-reports]
+11:10:49.430 INFO  - Sensor SurefireSensor [java] (done) | time=2ms
+11:10:49.430 INFO  - Sensor JaCoCoSensor [java]
+11:10:49.432 INFO  - Sensor JaCoCoSensor [java] (done) | time=2ms
+11:10:49.432 INFO  - Sensor SonarJavaXmlFileSensor [java]
+11:10:49.432 INFO  - Sensor SonarJavaXmlFileSensor [java] (done) | time=0ms
+11:10:49.432 INFO  - Sensor Analyzer for "php.ini" files [php]
+11:10:49.434 INFO  - Sensor Analyzer for "php.ini" files [php] (done) | time=2ms
+11:10:49.434 INFO  - Sensor Zero Coverage Sensor
+11:10:49.453 INFO  - Sensor Zero Coverage Sensor (done) | time=19ms
+11:10:49.454 INFO  - Sensor CPD Block Indexer
+11:10:49.472 INFO  - Sensor CPD Block Indexer (done) | time=18ms
+11:10:49.472 INFO  - No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+11:10:49.473 INFO  - 1 file had no CPD blocks
+11:10:49.473 INFO  - Calculating CPD for 3 files
+11:10:49.482 INFO  - CPD calculation finished
+11:10:49.631 INFO  - Analysis report generated in 145ms, dir size=21 KB
+11:10:49.666 INFO  - Analysis reports compressed in 35ms, zip size=11 KB
+11:10:49.695 INFO  - Analysis report uploaded in 28ms
+11:10:49.697 INFO  - ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/sonar2
+11:10:49.697 INFO  - Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+11:10:49.697 INFO  - More about the report processing at http://localhost:9000/api/ce/task?id=AWchJsrYYArAjm__gVS6
+11:10:49.726 INFO  - Task total time: 3.401 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 4.956s
+Final Memory: 18M/406M
+INFO: ------------------------------------------------------------------------

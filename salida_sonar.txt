@@ -1,0 +1,209 @@
+11:18:29.704 INFO: Scanner configuration file: C:\Program Files (x86)\sonar-scanner\bin\..\conf\sonar-scanner.properties
+11:18:29.708 INFO: Project root configuration file: C:\Users\s_rus\eclipse-workspace\ClassPrueba\sonar-project.properties
+11:18:29.730 INFO: SonarQube Scanner 3.2.0.1227
+11:18:29.731 INFO: Java 1.8.0_121 Oracle Corporation (64-bit)
+11:18:29.731 INFO: Windows 10 10.0 amd64
+11:18:29.858 DEBUG: keyStore is : 
+11:18:29.858 DEBUG: keyStore type is : jks
+11:18:29.858 DEBUG: keyStore provider is : 
+11:18:29.858 DEBUG: init keystore
+11:18:29.858 DEBUG: init keymanager of type SunX509
+11:18:30.129 DEBUG: Create: C:\Users\s_rus\.sonar\cache
+11:18:30.130 INFO: User cache: C:\Users\s_rus\.sonar\cache
+11:18:30.130 DEBUG: Create: C:\Users\s_rus\.sonar\cache\_tmp
+11:18:30.132 DEBUG: Extract sonar-scanner-api-batch in temp...
+11:18:30.137 DEBUG: Get bootstrap index...
+11:18:30.137 DEBUG: Download: http://localhost:9000/batch/index
+11:18:30.196 DEBUG: Get bootstrap completed
+11:18:30.202 DEBUG: Create isolated classloader...
+11:18:30.209 DEBUG: Start temp cleaning...
+11:18:30.215 DEBUG: Temp cleaning done
+11:18:30.215 DEBUG: Execution getVersion
+11:18:30.218 INFO: SonarQube server 6.7.5
+11:18:30.219 INFO: Default locale: "es_ES", source code encoding: "UTF-8"
+11:18:30.219 DEBUG: Work directory: C:\Users\s_rus\eclipse-workspace\ClassPrueba\.scannerwork
+11:18:30.220 DEBUG: Execution execute
+11:18:30.486 INFO: Publish mode
+11:18:30.590 INFO: Load global settings
+11:18:30.633 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf | time=35ms
+11:18:30.646 INFO: Load global settings (done) | time=56ms
+11:18:30.653 INFO: Server id: BF41A1F2-AWaSdojNQp0LAzHC4jIy
+11:18:30.662 INFO: User cache: C:\Users\s_rus\.sonar\cache
+11:18:30.860 INFO: Load plugins index
+11:18:30.869 DEBUG: GET 200 http://localhost:9000/api/plugins/installed | time=9ms
+11:18:30.922 INFO: Load plugins index (done) | time=62ms
+11:18:30.922 DEBUG: Load plugins
+11:18:30.937 DEBUG: Load plugins (done) | time=15ms
+11:18:30.953 DEBUG: API compatibility mode is enabled on plugin PMD [pmd] (built with API lower than 5.2)
+11:18:31.065 DEBUG: Plugins:
+11:18:31.066 DEBUG:   * SonarC# 6.5.0.3766 (csharp)
+11:18:31.066 DEBUG:   * SonarPython 1.8.0.1496 (python)
+11:18:31.066 DEBUG:   * SonarJava 4.15.0.12310 (java)
+11:18:31.066 DEBUG:   * Flex 2.3 (flex)
+11:18:31.066 DEBUG:   * PMD 2.6 (pmd)
+11:18:31.066 DEBUG:   * SonarQube :: Plugins :: SCM :: Git 1.3.0.869 (scmgit)
+11:18:31.066 DEBUG:   * SonarXML 1.4.3.1027 (xml)
+11:18:31.066 DEBUG:   * SonarPHP 2.11.0.2485 (php)
+11:18:31.066 DEBUG:   * SonarTS 1.1.0.1079 (typescript)
+11:18:31.066 DEBUG:   * SonarQube :: Plugins :: SCM :: SVN 1.6.0.860 (scmsvn)
+11:18:31.067 DEBUG:   * SonarJS 3.2.0.5506 (javascript)
+11:18:31.475 INFO: Process project properties
+11:18:31.482 DEBUG: Process project properties (done) | time=7ms
+11:18:31.525 INFO: Load project repositories
+11:18:31.537 DEBUG: GET 200 http://localhost:9000/batch/project.protobuf?key=sonar2 | time=11ms
+11:18:31.590 INFO: Load project repositories (done) | time=65ms
+11:18:31.663 DEBUG: Available languages:
+11:18:31.663 DEBUG:   * C# => "cs"
+11:18:31.663 DEBUG:   * Python => "py"
+11:18:31.663 DEBUG:   * Java => "java"
+11:18:31.663 DEBUG:   * Flex => "flex"
+11:18:31.663 DEBUG:   * XML => "xml"
+11:18:31.664 DEBUG:   * PHP => "php"
+11:18:31.664 DEBUG:   * TypeScript => "ts"
+11:18:31.664 DEBUG:   * JavaScript => "js"
+11:18:31.677 INFO: Load quality profiles
+11:18:31.695 DEBUG: GET 200 http://localhost:9000/api/qualityprofiles/search.protobuf?projectKey=sonar2 | time=17ms
+11:18:31.701 INFO: Load quality profiles (done) | time=24ms
+11:18:31.712 INFO: Load active rules
+11:18:31.787 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWaSdrI0Qp0LAzHC4jjL&p=1&ps=500 | time=75ms
+11:18:31.841 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWb4cKl5tmCd8EvdF5rJ&p=1&ps=500 | time=13ms
+11:18:31.870 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWaSdrTHQp0LAzHC4jwR&p=1&ps=500 | time=28ms
+11:18:31.884 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWaSdrSBQp0LAzHC4jvS&p=1&ps=500 | time=11ms
+11:18:31.912 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWaSdrXUQp0LAzHC4j13&p=1&ps=500 | time=27ms
+11:18:31.943 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWaSdrY3Qp0LAzHC4j32&p=1&ps=500 | time=27ms
+11:18:31.972 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWaSdrctQp0LAzHC4j6n&p=1&ps=500 | time=24ms
+11:18:31.997 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=AWaSdrfjQp0LAzHC4j7r&p=1&ps=500 | time=22ms
+11:18:32.009 INFO: Load active rules (done) | time=296ms
+11:18:32.010 INFO: Load metrics repository
+11:18:32.022 DEBUG: GET 200 http://localhost:9000/api/metrics/search?f=name,description,direction,qualitative,custom&ps=500&p=1 | time=11ms
+11:18:32.035 INFO: Load metrics repository (done) | time=25ms
+11:18:32.066 INFO: Project key: sonar2
+11:18:32.066 DEBUG: Start recursive analysis of project modules
+11:18:32.067 INFO: -------------  Scan Prueba2
+11:18:32.161 INFO: Load server rules
+11:18:32.269 DEBUG: GET 200 http://localhost:9000/api/rules/list.protobuf | time=108ms
+11:18:32.280 INFO: Load server rules (done) | time=119ms
+11:18:32.315 INFO: Base dir: C:\Users\s_rus\eclipse-workspace\ClassPrueba
+11:18:32.315 INFO: Working dir: C:\Users\s_rus\eclipse-workspace\ClassPrueba\.scannerwork
+11:18:32.316 INFO: Source paths: .
+11:18:32.317 INFO: Source encoding: UTF-8, default locale: es_ES
+11:18:32.408 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+11:18:32.408 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+11:18:32.408 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+11:18:32.408 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+11:18:32.408 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+11:18:32.409 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+11:18:32.409 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx
+11:18:32.409 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.vue
+11:18:32.409 INFO: Language is forced to java
+11:18:32.413 DEBUG: Initializers : 
+11:18:32.415 INFO: Index files
+11:18:32.440 DEBUG: 'src\Prueba4.java' indexed with language 'java'
+11:18:32.441 DEBUG: 'src\Prueba2.java' indexed with language 'java'
+11:18:32.441 DEBUG: 'src\Prueba1.java' indexed with language 'java'
+11:18:32.441 DEBUG: 'src\Prueba3.java' indexed with language 'java'
+11:18:32.441 INFO: 4 files indexed
+11:18:32.442 INFO: Quality profile for java: proyecto1
+11:18:33.179 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+11:18:33.179 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+11:18:33.179 DEBUG: 'C#' skipped because there is no related file in current project
+11:18:33.180 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+11:18:33.180 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+11:18:33.180 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+11:18:33.180 DEBUG: 'Python Squid Sensor' skipped because there is no related file in current project
+11:18:33.180 DEBUG: 'Flex' skipped because there is no related file in current project
+11:18:33.180 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+11:18:33.181 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+11:18:33.181 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+11:18:33.181 DEBUG: 'TypeScript Sensor' skipped because there is no related file in current project
+11:18:33.181 DEBUG: 'TypeScript LCOV Coverage Sensor' skipped because there is no related file in current project
+11:18:33.181 DEBUG: 'JavaScript Squid Sensor' skipped because there is no related file in current project
+11:18:33.183 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+11:18:33.183 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+11:18:33.183 DEBUG: 'C#' skipped because there is no related file in current project
+11:18:33.184 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+11:18:33.184 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+11:18:33.184 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+11:18:33.184 DEBUG: 'Python Squid Sensor' skipped because there is no related file in current project
+11:18:33.184 DEBUG: 'Flex' skipped because there is no related file in current project
+11:18:33.184 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+11:18:33.184 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+11:18:33.184 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+11:18:33.184 DEBUG: 'TypeScript Sensor' skipped because there is no related file in current project
+11:18:33.185 DEBUG: 'TypeScript LCOV Coverage Sensor' skipped because there is no related file in current project
+11:18:33.185 DEBUG: 'JavaScript Squid Sensor' skipped because there is no related file in current project
+11:18:33.188 DEBUG: Sensors : JavaSquidSensor -> PmdSensor -> SurefireSensor -> JaCoCoSensor -> SonarJavaXmlFileSensor -> Analyzer for "php.ini" files -> Zero Coverage Sensor -> CPD Block Indexer
+11:18:33.188 INFO: Sensor JavaSquidSensor [java]
+11:18:33.291 INFO: Configured Java source version (sonar.java.source): none
+11:18:33.315 INFO: JavaClasspath initialization
+11:18:33.328 INFO: JavaClasspath initialization (done) | time=13ms
+11:18:33.329 INFO: JavaTestClasspath initialization
+11:18:33.329 INFO: JavaTestClasspath initialization (done) | time=0ms
+11:18:33.548 DEBUG: ----- Classpath analyzed by Squid:
+11:18:33.549 DEBUG: C:\jdk1.8.0_191
+11:18:33.549 DEBUG: -----
+11:18:33.549 DEBUG: ----- Classpath analyzed by Squid:
+11:18:33.549 DEBUG: -----
+11:18:33.550 INFO: Java Main Files AST scan
+11:18:33.551 INFO: 4 source files to be analyzed
+11:18:33.562 DEBUG: 'src/Prueba1.java' generated metadata  with charset 'UTF-8'
+11:18:33.731 DEBUG: 'src/Prueba2.java' generated metadata  with charset 'UTF-8'
+11:18:33.762 DEBUG: 'src/Prueba3.java' generated metadata  with charset 'UTF-8'
+11:18:33.804 DEBUG: 'src/Prueba4.java' generated metadata  with charset 'UTF-8'
+11:18:33.827 INFO: 4/4 source files have been analyzed
+11:18:33.827 INFO: Java Main Files AST scan (done) | time=277ms
+11:18:33.827 INFO: Java Test Files AST scan
+11:18:33.828 INFO: 0 source files to be analyzed
+11:18:33.828 INFO: Java Test Files AST scan (done) | time=1ms
+11:18:33.828 INFO: Sensor JavaSquidSensor [java] (done) | time=640ms
+11:18:33.828 INFO: 0/0 source files have been analyzed
+11:18:33.828 INFO: Sensor PmdSensor [pmd]
+11:18:33.829 INFO: Execute PMD 5.4.2...
+11:18:33.847 INFO: Java version: 1.5
+11:18:33.871 INFO: PMD configuration: C:\Users\s_rus\eclipse-workspace\ClassPrueba\.scannerwork\pmd.xml
+11:18:34.007 INFO: Execute PMD 5.4.2 done: 178 ms
+11:18:34.041 INFO: Sensor PmdSensor [pmd] (done) | time=213ms
+11:18:34.041 INFO: Sensor SurefireSensor [java]
+11:18:34.042 INFO: parsing [C:\Users\s_rus\eclipse-workspace\ClassPrueba\target\surefire-reports]
+11:18:34.043 INFO: Sensor SurefireSensor [java] (done) | time=2ms
+11:18:34.043 INFO: Sensor JaCoCoSensor [java]
+11:18:34.044 INFO: Sensor JaCoCoSensor [java] (done) | time=1ms
+11:18:34.045 INFO: Sensor SonarJavaXmlFileSensor [java]
+11:18:34.045 INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=0ms
+11:18:34.045 INFO: Sensor Analyzer for "php.ini" files [php]
+11:18:34.047 INFO: Sensor Analyzer for "php.ini" files [php] (done) | time=2ms
+11:18:34.047 INFO: Sensor Zero Coverage Sensor
+11:18:34.065 INFO: Sensor Zero Coverage Sensor (done) | time=18ms
+11:18:34.065 INFO: Sensor CPD Block Indexer
+11:18:34.066 DEBUG: org.sonar.scanner.cpd.deprecated.JavaCpdBlockIndexer is used for java
+11:18:34.071 DEBUG: Populating index from src/Prueba1.java
+11:18:34.078 DEBUG: Not enough content in 'src/Prueba1.java' to have CPD blocks, it will not be part of the duplication detection
+11:18:34.078 DEBUG: Populating index from src/Prueba2.java
+11:18:34.081 DEBUG: Populating index from src/Prueba3.java
+11:18:34.083 DEBUG: Populating index from src/Prueba4.java
+11:18:34.084 INFO: Sensor CPD Block Indexer (done) | time=19ms
+11:18:34.084 INFO: No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+11:18:34.085 INFO: 1 file had no CPD blocks
+11:18:34.085 INFO: Calculating CPD for 3 files
+11:18:34.086 DEBUG: Detection of duplications for C:/Users/s_rus/eclipse-workspace/ClassPrueba/src/Prueba2.java
+11:18:34.092 DEBUG: Detection of duplications for C:/Users/s_rus/eclipse-workspace/ClassPrueba/src/Prueba3.java
+11:18:34.093 DEBUG: Detection of duplications for C:/Users/s_rus/eclipse-workspace/ClassPrueba/src/Prueba4.java
+11:18:34.093 INFO: CPD calculation finished
+11:18:34.210 INFO: Analysis report generated in 113ms, dir size=26 KB
+11:18:34.237 INFO: Analysis reports compressed in 27ms, zip size=12 KB
+11:18:34.237 INFO: Analysis report generated in C:\Users\s_rus\eclipse-workspace\ClassPrueba\.scannerwork\scanner-report
+11:18:34.237 DEBUG: Upload report
+11:18:34.264 DEBUG: POST 200 http://localhost:9000/api/ce/submit?projectKey=sonar2&projectName=Prueba2 | time=25ms
+11:18:34.266 INFO: Analysis report uploaded in 29ms
+11:18:34.267 INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/sonar2
+11:18:34.267 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+11:18:34.267 INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AWchLeGSYArAjm__gVS7
+11:18:34.268 DEBUG: Report metadata written to C:\Users\s_rus\eclipse-workspace\ClassPrueba\.scannerwork\report-task.txt
+11:18:34.274 DEBUG: Post-jobs : 
+11:18:34.278 INFO: Task total time: 3.201 s
+11:18:34.392 INFO: ------------------------------------------------------------------------
+11:18:34.392 INFO: EXECUTION SUCCESS
+11:18:34.392 INFO: ------------------------------------------------------------------------
+11:18:34.392 INFO: Total time: 4.713s
+11:18:34.452 INFO: Final Memory: 18M/408M
+11:18:34.452 INFO: ------------------------------------------------------------------------
